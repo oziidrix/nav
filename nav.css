@@ -1,0 +1,76 @@
+
+
+body {
+    background-color: #101010;
+}
+
+.container { 
+
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+
+
+}
+
+nav {
+    
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+  }
+  
+  nav a {
+    width: 25%;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+  
+  nav ul li a {
+    color: #eaf4f5;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: white;
+  }
+  
+  hr {
+    height: 40px;
+    width: 16%;
+    margin: -43px -10px;
+    background: linear-gradient(to right, #8ed4db 0%, #ff3399 100%);
+    border: none;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .two:hover ~ hr {
+    margin-left: 14.8%;
+  }
+  
+  .three:hover ~ hr {
+    margin-left: 31.8%;
+  }
+  
+  .four:hover ~ hr {
+    margin-left: 47%;
+  }
+  
+  .five:hover ~ hr {
+    margin-left: 63.9%;
+  }
+
+.six:hover ~ hr  {
+    margin-left: 83%;
+
+}
+
+
